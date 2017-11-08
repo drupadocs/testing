@@ -28,3 +28,12 @@ Whatever language you are using, the result will be the same.
 $ My first method
 ```
 {% endmethod %}
+
+```php6
+Class Foo {
+  public function get() {
+    
+  }
+}
+
+```
