@@ -24,7 +24,8 @@
   * [Block](plugin/block.md)
   * Field Type
   * Field Widget
-  * Field Formatter
+  * [Field Formatter](plugin/field-formatter.md)
+    * [Functional](plugin/field-formatter/functional.md)
 * [Cache](cache.md)
   * Tag
   * Context
