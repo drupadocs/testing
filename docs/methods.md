@@ -7,20 +7,6 @@ Methods allow you to smoothly display code examples in different languages.
 
 My first method exposes how to print a message in JavaScript and Go.
 
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
-
-```js
-console.log('My first method');
-```
-
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
 {% common %}
 Whatever language you are using, the result will be the same.
 
@@ -28,14 +14,11 @@ Whatever language you are using, the result will be the same.
 $ My first method
 ```
 
-{% sample lang="php7" %}
-
-```php6
+```php5
 Class Foo {
   public function get() {
     
   }
 }
-
 ```
 {% endmethod %}
