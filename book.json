@@ -8,13 +8,9 @@
         "theme-api": {
             "languages": [
                 {
-                    "lang": "js",
-                    "name": "JavaScript",
+                    "lang": "php7",
+                    "name": "PHP",
                     "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
                 }
             ]
         }
