@@ -1,7 +1,58 @@
-```php
-<?php
+# Unit Test
 
-namespace Drupal\Tests\aggregator\Unit\Menu;
+## Setup
+
+```php
+/**
+ * {@inheritdoc}
+ */
+  protected function setUp() {
+    $this->directoryList = ['module_name' => 'path/to/module'];
+    parent::setUp();
+  }
+```
+
+## Display
+
+### Existence of local task plugin
+
+```php
+  /**
+   * Tests local task existence.
+   *
+   * @dataProvider getAggregatorAdminRoutes
+   */
+  public function testAggregatorAdminLocalTasks($route) {
+    $this->assertLocalTasks($route, [
+      0 => ['aggregator.admin_overview', 'aggregator.admin_settings'],
+    ]);
+  }
+```
+
+#### See also assertLocalTasks
+
+### Data provider
+
+```php
+  /**
+   * Provides a list of routes to test.
+   */
+  public function getAggregatorAdminRoutes() {
+    return [
+      ['aggregator.admin_overview'],
+      ['aggregator.admin_settings'],
+    ];
+  }
+```
+
+## Summary
+
+```
+<?php
+```
+
+```php
+namespace Drupal\Tests\[module_name]\Unit\Menu;
 
 use Drupal\Tests\Core\Menu\LocalTaskIntegrationTestBase;
 
@@ -16,7 +67,7 @@ class AggregatorLocalTasksTest extends LocalTaskIntegrationTestBase {
    * {@inheritdoc}
    */
   protected function setUp() {
-    $this->directoryList = ['aggregator' => 'core/modules/aggregator'];
+    $this->directoryList = ['module_name' => 'path/to/module'];
     parent::setUp();
   }
 
@@ -41,31 +92,12 @@ class AggregatorLocalTasksTest extends LocalTaskIntegrationTestBase {
     ];
   }
 
-  /**
-   * Checks aggregator source tasks.
-   *
-   * @dataProvider getAggregatorSourceRoutes
-   */
-  public function testAggregatorSourceLocalTasks($route) {
-    $this->assertLocalTasks($route, [
-      0 => ['entity.aggregator_feed.canonical', 'entity.aggregator_feed.edit_form', 'entity.aggregator_feed.delete_form'],
-    ]);
-    ;
-  }
-
-  /**
-   * Provides a list of source routes to test.
-   */
-  public function getAggregatorSourceRoutes() {
-    return [
-      ['entity.aggregator_feed.canonical'],
-      ['entity.aggregator_feed.edit_form'],
-    ];
-  }
-
 }
-
 ```
+
+## Reference:
+1. [AggregatorLocalTasksTest](https://api.drupal.org/api/drupal/core%21modules%21aggregator%21tests%21src%21Unit%21Menu%21AggregatorLocalTasksTest.php/8.5.x)
+2. [LocalTaskIntegrationTestBase](https://api.drupal.org/api/drupal/core%21tests%21Drupal%21Tests%21Core%21Menu%21LocalTaskIntegrationTestBase.php/8.5.x)
 
 
 

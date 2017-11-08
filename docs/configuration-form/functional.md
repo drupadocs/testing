@@ -75,10 +75,6 @@ class ModuleNameAdminUiTest extends BrowserTestBase {
 ### Validation
 
 ```php
-/**
-* Tests the settings form to ensure the correct default values are used.
-*/
-public function testSettingsFormValidation() {
    // Try to submit with invalid value.
     $edit = [
       'total_count' => 'invalid string',
@@ -87,17 +83,26 @@ public function testSettingsFormValidation() {
 
     // Check for error message.
     $this->assertSession()->pageTextContains('Total count should be an integer.');
-
-}
 ```
 
 ### Submit
 
 ```php
-
+    // Set new values and enable test plugins.
+    $edit = [
+      'aggregator_allowed_html_tags' => '<a>',
+      'aggregator_summary_items' => 10,
+      'aggregator_clear' => 3600,
+      'aggregator_teaser_length' => 200,
+      'aggregator_fetcher' => 'aggregator_test_fetcher',
+      'aggregator_parser' => 'aggregator_test_parser',
+      'aggregator_processors[aggregator_test_processor]' => 'aggregator_test_processor',
+    ];
+    $this->drupalPostForm('admin/config/services/aggregator/settings', $edit, t('Save configuration'));
+    $this->assertText(t('The configuration options have been saved.'));
 ```
 
-## Conclusion
+## Summary
 
 ```php
 <?php
@@ -161,6 +166,19 @@ class [ModuleName]AdminUiTest extends BrowserTestBase {
     $this->drupalPostForm('admin/config/services/aggregator/settings', $edit, t('Save configuration'));
     // Check for error message.
     $this->assertSession()->pageTextContains('Total count should be an integer.');
+
+    // Set new values and enable test plugins.
+    $edit = [
+      'aggregator_allowed_html_tags' => '<a>',
+      'aggregator_summary_items' => 10,
+      'aggregator_clear' => 3600,
+      'aggregator_teaser_length' => 200,
+      'aggregator_fetcher' => 'aggregator_test_fetcher',
+      'aggregator_parser' => 'aggregator_test_parser',
+      'aggregator_processors[aggregator_test_processor]' => 'aggregator_test_processor',
+    ];
+    $this->drupalPostForm('admin/config/services/aggregator/settings', $edit, t('Save configuration'));
+    $this->assertText(t('The configuration options have been saved.'));
   }
 
 }

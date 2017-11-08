@@ -36,7 +36,8 @@
 * AJAX
 * Batch
 
-## Functional Base Classes
+## Methods
 
+* [assertLocalTasks](methods/assertlocaltasks.md)
 * [Defining Methods](methods.md)
 
