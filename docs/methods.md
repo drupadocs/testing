@@ -27,7 +27,8 @@ Whatever language you are using, the result will be the same.
 ```bash
 $ My first method
 ```
-{% endmethod %}
+
+{% sample lang="php7" %}
 
 ```php6
 Class Foo {
@@ -37,3 +38,4 @@ Class Foo {
 }
 
 ```
+{% endmethod %}
