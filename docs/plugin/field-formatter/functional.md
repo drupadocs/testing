@@ -1,11 +1,10 @@
-# Functional
+# Kernel
 
 ## Setup
 
 ## Display
 
 ## Summary
-
 
 ```php
 <?php
