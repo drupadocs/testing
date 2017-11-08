@@ -8,7 +8,7 @@
         "theme-api": {
             "languages": [
                 {
-                    "lang": "php7",
+                    "lang": "php5",
                     "name": "PHP",
                     "default": true
                 }
