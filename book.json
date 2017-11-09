@@ -2,6 +2,7 @@
     "root": "./docs",
     "plugins": [
      "theme-api",
+     "gist",
      "copy-code-button"
     ],
     "pluginsConfig": {
