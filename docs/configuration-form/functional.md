@@ -24,6 +24,7 @@ $this->assertSession()->pageTextMatches('/[0-9]{10}/');
 // 
 $this->assertSession()->pageTextNotMatches('/[0-9]{5}/');
 ```
+
 ### 2.2 HTML
 ```php
 // Check HTML content.
@@ -103,7 +104,8 @@ $this->assertSession()->buttonExists('Submit')
 > Note:
 1. It is a good idea to make sure new values are saved after submit by asserting like in display section above.
 
-## 4. Reference:
+## 4. Reference
+
 1. [AggregatorAdminTest](https://github.com/drupal/drupal/blob/8.5.x/core/modules/aggregator/tests/src/Functional/AggregatorAdminTest.php)
 2. [ResponsiveImageAdminUITest](https://github.com/drupal/drupal/blob/8.5.x/core/modules/responsive_image/src/Tests/ResponsiveImageAdminUITest.php)
 

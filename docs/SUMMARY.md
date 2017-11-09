@@ -12,7 +12,7 @@
 * [Menu](menu.md)
   * [Task Link](menu/task-link.md)
     * [Unit](menu/task-link/unit.md)
-    * [Fuunctional](menu/task-link/fuunctional.md)
+    * [Functional](menu/task-link/fuunctional.md)
   * [Menu Link](menu/menu-link.md)
   * [Action Link](menu/action-link.md)
 * [Plugin](plugin.md)
