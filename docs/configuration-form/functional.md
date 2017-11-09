@@ -5,44 +5,7 @@
 
 ## 1. Setup
 
-```php
-/**
- * Tests aggregator admin pages.
- *
- * @group [module_machine_name]
- */
-class ModuleNameAdminUiTest extends BrowserTestBase {
-
-  /**
-   * Modules to install.
-   *
-   * @var array
-   */
-  public static $modules = ['block', 'node', 'aggregator'];
-
-  /**
-   * {@inheritdoc}
-   */
-  protected function setUp() {
-    parent::setUp();
-    // Create new content type.
-    $this->drupalCreateContentType(['type' => 'article', 'name' => 'Article']);
-
-    $permissions = [
-      'access administration pages',
-      'administer news feeds',
-      'access news feeds',
-      'create article content',
-     ];
-    // Create user with permissions. 
-    $admin_user = $this->drupalCreateUser($permissions);
-
-    // Login
-    $this->drupalLogin($admin_user);
-  }
-
-}
-```
+{% gist id="drupadocs-user/5932b56120d8c0e8b816e5c8571888e1",hideFooter=true %} {% endgist %}
 
 ## 2. UI Tests
 
