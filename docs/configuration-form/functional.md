@@ -63,7 +63,8 @@ $this->assertSession()->pageTextNotMatches('/[0-9]{5}/');
 ```
 ### 2.2 HTML
 ```php
-
+// Check HTML content.
+$this->assertSession()->responseContains();
 ```
 
 #### 2.2 Field 
