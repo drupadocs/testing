@@ -5,7 +5,7 @@
 
 ## 1. Setup
 
-{% gist id="drupadocs-user/5932b56120d8c0e8b816e5c8571888e1",hideFooter=true %} {% endgist %}
+{% gist id="drupadocs-user/5932b56120d8c0e8b816e5c8571888e1" %} {% endgist %}
 
 ## 2. UI Tests
 
