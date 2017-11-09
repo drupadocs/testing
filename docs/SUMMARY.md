@@ -5,9 +5,9 @@
 * [Introduction](README.md)
 * [Types](types.md)
 
-## Samples
+## Components
 
-* [Configuration Form](configuration-form.md)
+* [Form](configuration-form.md)
   * [Functional](configuration-form/functional.md)
 * [Menu](menu.md)
   * [Task Link](menu/task-link.md)

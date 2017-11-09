@@ -6,13 +6,11 @@
 
 The ultimate guide to write tests for Drupal 8 modules, themes and profiles. It aims to provide sample code and methods to write different types of testings available in core.
 
-## Structure
 
-### Class
+## Why here?
+There are plenty of documentation on [testing in drupal.org](https://www.drupal.org/docs/testing). However we have few reasons to have this documentation
 
-![](https://user-images.githubusercontent.com/1220029/32525579-fe73f744-c41c-11e7-816f-cfc86f44fe22.png)
-
-### Directory
-
-![](https://user-images.githubusercontent.com/1220029/32525578-fe5ade1c-c41c-11e7-8b09-e949e0057240.png)
-
+1. Easy to write standard tests.
+2. Developer focused content
+3. Easy to keep up with changes (Refer [contribute]())
+4. Provide best possible solution available as there are some inconsistency on core tests.
