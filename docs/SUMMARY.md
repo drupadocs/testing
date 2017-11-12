@@ -14,19 +14,25 @@
     * [Unit](menu/task-link/unit.md)
     * [Functional](menu/task-link/fuunctional.md)
   * [Menu Link](menu/menu-link.md)
+    * [Functional](menu/menu-link/functional.md)
   * [Action Link](menu/action-link.md)
+    * [Functional](menu/action-link/functional.md)
+  * [Functional](menu/functional.md)
 * [Plugin](plugin.md)
   * [Entity](plugin/entity.md)
     * [Entity Form](plugin/entity/entity-form.md)
-    * Access Control
-    * List Builder
-    * View Builder
+    * [Access Control](plugin/entity/access-control.md)
+    * [List Builder](plugin/entity/list-builder.md)
+      * [Functional](plugin/entity/list-builder/functional.md)
+    * [View Builder](plugin/entity/view-builder.md)
+      * Functional
     * Storage
   * [Block](plugin/block.md)
   * Field Type
   * Field Widget
   * [Field Formatter](plugin/field-formatter.md)
     * [Kernel](plugin/field-formatter/functional.md)
+  * [Functional](plugin/functional.md)
 * [Cache](cache.md)
   * [Tag](cache/tag.md)
   * Context
