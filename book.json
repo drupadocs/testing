@@ -3,6 +3,7 @@
     "plugins": [
      "theme-api",
      "gist",
+     "toggle-chapters",
      "copy-code-button"
     ],
     "pluginsConfig": {
