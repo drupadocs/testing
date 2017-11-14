@@ -8,11 +8,11 @@
 ## Components
 
 * [Form](configuration-form.md)
-  * [Functional](configuration-form/functional.md)
+  * [Functional](form/functional.md)
 * [Menu](menu.md)
   * [Task Link](menu/task-link.md)
     * [Unit](menu/task-link/unit.md)
-    * [Functional](menu/task-link/fuunctional.md)
+    * [Functional](menu/task-link/functional.md)
   * [Menu Link](menu/menu-link.md)
     * [Functional](menu/menu-link/functional.md)
   * [Action Link](menu/action-link.md)

@@ -30,5 +30,3 @@ $this->assertSession()->linkNotExistsExact('Add workflow');
 
 1. [WorkflowUiNoTypeTest](https://github.com/drupal/drupal/blob/8.5.x/core/modules/workflows/tests/src/Functional/WorkflowUiNoTypeTest.php)
 2. [VocabularyPermissionsTest](https://github.com/drupal/drupal/blob/8.5.x/core/modules/taxonomy/tests/src/Functional/VocabularyPermissionsTest.php)
-
-
