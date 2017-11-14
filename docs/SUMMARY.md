@@ -7,6 +7,22 @@
 
 ## Components
 
+* [Block](plugin/block.md)
+  * [Javascript](plugin/block/javascript.md)
+* [Entity](plugin/entity.md)
+  * [Entity Form](plugin/entity/entity-form.md)
+  * [Access Control](plugin/entity/access-control.md)
+  * [List Builder](plugin/entity/list-builder.md)
+    * [Functional](plugin/entity/list-builder/functional.md)
+  * [View Builder](plugin/entity/view-builder.md)
+    * Functional
+  * Storage
+* Field
+  * [Field Formatter](plugin/field-formatter.md)
+    * [Kernel](plugin/field-formatter/functional.md)
+  * Field Widget
+  * [Field Type](plugin/field-type.md)
+
 * [Form](configuration-form.md)
   * [Functional](form/functional.md)
 * [Menu](menu.md)
@@ -19,20 +35,6 @@
     * [Functional](menu/action-link/functional.md)
   * [Functional](menu/functional.md)
 * [Plugin](plugin.md)
-  * [Entity](plugin/entity.md)
-    * [Entity Form](plugin/entity/entity-form.md)
-    * [Access Control](plugin/entity/access-control.md)
-    * [List Builder](plugin/entity/list-builder.md)
-      * [Functional](plugin/entity/list-builder/functional.md)
-    * [View Builder](plugin/entity/view-builder.md)
-      * Functional
-    * Storage
-  * [Block](plugin/block.md)
-    * [Javascript](plugin/block/javascript.md)
-  * [Field Type](plugin/field-type.md)
-  * Field Widget
-  * [Field Formatter](plugin/field-formatter.md)
-    * [Kernel](plugin/field-formatter/functional.md)
   * [Functional](plugin/functional.md)
 * [Cache](cache.md)
   * [Tag](cache/tag.md)
@@ -44,7 +46,6 @@
   * [Unit](validation-constraint/functional.md)
 * [Derivative](derivative.md)
 * [AJAX](ajax.md)
-* [Batch](batch.md)
 
 ## Methods
 
