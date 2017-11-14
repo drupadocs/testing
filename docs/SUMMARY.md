@@ -28,7 +28,8 @@
       * Functional
     * Storage
   * [Block](plugin/block.md)
-  * Field Type
+    * [Javascript](plugin/block/javascript.md)
+  * [Field Type](plugin/field-type.md)
   * Field Widget
   * [Field Formatter](plugin/field-formatter.md)
     * [Kernel](plugin/field-formatter/functional.md)
