@@ -1,25 +1,26 @@
 
-# Defining Methods
+# assertLocalTask()
+---
 
-Methods allow you to smoothly display code examples in different languages.
+Checks for different components of local tasks.
 
 {% method %}
-## My first method
+## Definition
 
-My first method exposes how to print a message in JavaScript and Go.
 
 {% common %}
 Whatever language you are using, the result will be the same.
 
-```bash
-$ My first method
-```
 
 ```php5
-Class Foo {
-  public function get() {
-    
+  /**
+   * Asserts that local tasks exists.
+   */
+  public function assertLocalTasks() {
+    $this->assertSession()->linkExists('Settings');
+    $this->assertSession()->linkExists('Manage fields');
+    $this->assertSession()->linkExists('Manage display');
+    $this->assertSession()->linkExists('Manage form display');
   }
-}
 ```
 {% endmethod %}
