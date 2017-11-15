@@ -56,4 +56,5 @@
 ## Methods
 
 * [assertLocalTasks](methods/assertlocaltasks.md)
+* [assertCacheTags](methods/assertcachetags.md)
 
