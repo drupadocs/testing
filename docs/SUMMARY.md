@@ -13,6 +13,7 @@
   * [Javascript](plugin/block/javascript.md)
 * [Cache](cache.md)
   * [Tag](cache/tag.md)
+    * [Kernel](cache/tag/kenel.md)
   * [Context](cache/context.md)
 * [Derivative](derivative.md)
   * [Kernel](derivative/kernel.md)
