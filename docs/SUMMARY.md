@@ -11,6 +11,7 @@
   * [Kernel](ajax/kernel.md)
 * [Block](plugin/block.md)
   * [Javascript](plugin/block/javascript.md)
+  * [Functional](plugin/block/functional.md)
 * [Cache](cache.md)
   * [Tag](cache/tag.md)
     * [Kernel](cache/tag/kenel.md)
