@@ -16,3 +16,5 @@ There are plenty of documentation on [testing in drupal.org](https://www.drupal.
 4. Provide best possible solution available as there are some inconsistency on core tests (e.g. `simpletest` vs `PHPUnit`, `getMock()` vs `prophesize()`).
 
 ## Contribute
+
+Feel free to open an [issue](https://github.com/drupadocs/testing/issues/new) or (better) [pull request](https://github.com/drupadocs/testing/pulls) to improve, add new features and bug fixes.
