@@ -3,6 +3,8 @@ There are 4 major categories of testing available out-of-box Drupal core. These 
 
 All these types are heavily based generic PHP libraries: [PHPUnit](https://phpunit.de/), [MinkPHP](http://mink.behat.org/en/latest/) and [Guzzle](http://docs.guzzlephp.org/en/stable/). Basic knowledge on those would help a lot.
 
+>Note: There are still some legacy simpletest module based tests are available in core (most of them based on [WebTestBase](https://github.com/drupal/drupal/blob/8.5.x/core/modules/simpletest/src/WebTestBase.php)). Do not use them as the plan is to [migrate to PHPUnit](https://www.drupal.org/node/2735005).
+
 ## Types
 
 ## 1. Unit
