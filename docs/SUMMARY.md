@@ -53,6 +53,7 @@
 * [Service Provider](service-provider.md)
   * [Javascript](service-provider/javascript.md)
   * [Functional](service-provider/functional.md)
+* [UI](ui.md)
 
 ## Methods
 

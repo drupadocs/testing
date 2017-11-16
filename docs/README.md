@@ -12,7 +12,7 @@ There are plenty of documentation on [testing in drupal.org](https://www.drupal.
 
 1. Make it easy to write standard tests
 2. Developer focused content
-3. Easy to keep up with changes (Refer [contribute]())
+3. Easy to keep up with changes (e.g. updating all reference to 8.5.x links on this book at once.)
 4. Provide best possible solution available as there are some inconsistency on core tests (e.g. `simpletest` vs `PHPUnit`, `getMock()` vs `prophesize()`).
 
 ## Contribute
