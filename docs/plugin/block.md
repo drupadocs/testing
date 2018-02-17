@@ -2,11 +2,10 @@
 
 ---
 
-
-
 ## Base Class
 
 ![BlockTestBase](https://user-images.githubusercontent.com/1220029/32836843-222321a6-ca03-11e7-92bf-2a97d08ee72e.png)
+
 
 
 ## Reference

@@ -8,9 +8,9 @@
 ## Components
 
 * [AJAX](ajax.md)
-  * [Kernel](ajax/kernel.md)
+  * [JavaScript](ajax/javascriptfunctional.md)
 * [Block](plugin/block.md)
-  * [Javascript](plugin/block/javascript.md)
+  * [JavaScript](plugin/block/javascript.md)
   * [Functional](plugin/block/functional.md)
 * [Cache](cache.md)
   * [Tag](cache/tag.md)
